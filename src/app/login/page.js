@@ -15,6 +15,10 @@ const Login = () => {
       <Link href="/about">About</Link>&nbsp;&nbsp;
       <button onClick={()=>router.push("/login")}>Login</button>&nbsp;&nbsp;
       <button onClick={()=>navigate("/about")}>About</button>&nbsp;&nbsp;
+
+      <button onClick={()=>navigate("/login/loginstudent")}>Student Login</button>&nbsp;&nbsp;
+      <button onClick={()=>navigate("/login/loginteacher")}>Teacher Login</button>&nbsp;&nbsp;
+
     </div>
   );
 };
