@@ -23,7 +23,7 @@ export default function Home() {
   }
 
   return (
-    /*<main className={styles.main}> */
+    /*<main className={styles.main}> */ 
     <main>
       <Link href="/">Home</Link>&nbsp;&nbsp;
       <Link href="/login">Login</Link>&nbsp;&nbsp;
