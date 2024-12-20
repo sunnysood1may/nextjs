@@ -9,7 +9,7 @@ const Login = () => {
     }
   return (
     <div>
-      <h1>Login Page</h1>
+      <h1 className="heading">Login Page</h1>
       <Link href="/">Home</Link>&nbsp;&nbsp;
       <Link href="/login">Login</Link>&nbsp;&nbsp;
       <Link href="/about">About</Link>&nbsp;&nbsp;
