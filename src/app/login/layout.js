@@ -9,9 +9,12 @@ export default function Layout({ children }) {
   return (
     <div>
       {pathName !== "/login/loginteacher" ? (
-        <ul className="login-menu">
+        <ul className="login-menu"> 
           <li>
-            <h4>Login Navbar</h4>
+          <Link href="/">Home</Link>
+          </li>
+          <li>
+          <Link href="/about">About</Link>
           </li>
           <li>
             <Link href="/login">Login main</Link>
