@@ -30,6 +30,9 @@ export default function RootLayout({ children }) {
               <Link href="/productlist">ProductList</Link>
             </li>
             <li>
+              <Link href="/productlistserver">ProductListServer</Link>
+            </li>
+            <li>
               <Link href="/login">Login main</Link>
             </li>
             <li>
