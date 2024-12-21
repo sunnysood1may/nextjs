@@ -1,6 +1,7 @@
 "use client";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "./style.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -40,6 +41,9 @@ export default function RootLayout({ children }) {
             </li>
             <li>
               <Link href="/login/loginteacher">Teacher Login</Link>
+            </li>
+            <li>
+              <Link href="/user">User</Link>
             </li>
           </ul>
         ) : (
